@@ -48,7 +48,9 @@
             "error",
             "always"
         ],
-        "keyword-spacing": ["error", { "after": false, "before": true }],
+        "keyword-spacing": ["error", { "after": true, "before": true, "overrides": {
+            "if": { "after": false }
+        }}],
         "no-multi-spaces": 2,
         "no-irregular-whitespace": 2,
         "no-trailing-spaces": 2,
